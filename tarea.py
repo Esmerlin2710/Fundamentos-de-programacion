@@ -17,9 +17,8 @@ guardar registros
 leer archivo
 actualizar nombre ( permite escribir un nombre y lo busca en el archivo para reemplazarlo con otro valor)
 cerrar
-S
 
-ubir a github"""
+Subir a github"""
 
 import os
 
