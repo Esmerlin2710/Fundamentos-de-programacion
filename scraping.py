@@ -5,9 +5,9 @@ url = "https://quotes.toscrape.com/"
 response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 
-titulo = soup.find_all("div", class_="tags")
+quote = soup.find_all("div", class_="quote")
 
 
-for i in titulo:
-    print(i.text)
-    
+for q in quote:
+    print(q.text)
+
