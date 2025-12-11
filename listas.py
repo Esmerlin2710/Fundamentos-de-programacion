@@ -92,7 +92,8 @@ palabra = input("Escribe una palabra: ").lower()
 vocales = ['a', 'e', 'i', 'o', 'u']
 
 for vocal in vocales:
-    print(f"La vocal '{vocal}' aparece {palabra.count(vocal)} veces.")
+    if vocal in palabra:
+        print(f"La vocal '{vocal}' aparece {palabra.count(vocal)} veces.")
 
 # 10
 
