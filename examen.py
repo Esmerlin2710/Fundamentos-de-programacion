@@ -33,6 +33,7 @@ def random():
                 break
             elif eleccion < numero_secreto:
                 print("El número secreto es MAYOR.")
+                intentos += 1
             else:
                 print("El número secreto es MENOR.")
                 intentos += 1
